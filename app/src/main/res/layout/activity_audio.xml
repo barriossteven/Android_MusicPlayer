@@ -37,11 +37,10 @@
         android:layout_alignParentEnd="true" />
 
     <SeekBar
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/seekBar"
-        android:layout_below="@+id/pauseButton"
-        android:layout_toLeftOf="@+id/stopButton"
-        android:layout_toStartOf="@+id/stopButton"
-        android:indeterminate="false" />
+        android:indeterminate="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
