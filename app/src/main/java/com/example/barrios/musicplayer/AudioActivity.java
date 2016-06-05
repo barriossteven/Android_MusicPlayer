@@ -36,7 +36,7 @@ import java.io.IOException;
            @Override
            public void onClick(View v) {
                if(!isPrepared) {
-                   try {
+                   try { 
                        mediaPlayer.prepare();
                        isPrepared = true;
                    } catch (IOException e) {
